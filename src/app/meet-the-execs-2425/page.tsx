@@ -1,12 +1,12 @@
 import * as React from 'react';
 // import { Link } from 'react-router-dom';
-import { Typography, Button } from '@mui/material';
+import { Typography } from '@mui/material';
 import ResponsiveAppBar from '@/components/navbar';
 import ExecCard from '@/components/MeetTheExecs/ExecCard';
 import adminexecs from '../../../execs_2425/admin.json';
 import eventsexecs from '../../../execs_2425/events.json';
 import socialmediaexecs from '../../../execs_2425/socialmedia.json';
-import Link from 'next/link';
+// import Link from 'next/link';
 
 export default function MeetTheExecs() {
   return (
@@ -28,7 +28,7 @@ export default function MeetTheExecs() {
       }}
     >
       {adminexecs.map((exec) => (
-      <ExecCard name={exec.name} pic={exec.pic} role={exec.role} year={exec.year} program={exec.program} favartists={exec.favartists} info={exec.info}></ExecCard>
+      <ExecCard key={exec.name} name={exec.name} pic={exec.pic} role={exec.role} year={exec.year} program={exec.program} favartists={exec.favartists} info={exec.info}></ExecCard>
       )) }
     </div>
 
@@ -47,7 +47,7 @@ export default function MeetTheExecs() {
       }}
     >
       {eventsexecs.map((exec) => (
-      <ExecCard name={exec.name} pic={exec.pic} role={exec.role} year={exec.year} program={exec.program} favartists={exec.favartists} info={exec.info}></ExecCard>
+      <ExecCard key={exec.name} name={exec.name} pic={exec.pic} role={exec.role} year={exec.year} program={exec.program} favartists={exec.favartists} info={exec.info}></ExecCard>
       )) }
     </div>
 

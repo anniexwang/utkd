@@ -1,11 +1,11 @@
 import * as React from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import { Typography } from '@mui/material';
 import ResponsiveAppBar from '@/components/navbar';
 import Accordion from '@mui/material/Accordion';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
-import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
+// import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import faqs from '../../../public/faq-questions.json';
 

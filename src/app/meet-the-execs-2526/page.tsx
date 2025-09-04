@@ -29,7 +29,7 @@ export default function MeetTheExecs() {
       }}
     >
       {adminexecs.map((exec) => (
-      <ExecCard name={exec.name} pic={exec.pic} role={exec.role} year={exec.year} program={exec.program} favartists={exec.favartists} info={exec.info}></ExecCard>
+      <ExecCard key={exec.name} name={exec.name} pic={exec.pic} role={exec.role} year={exec.year} program={exec.program} favartists={exec.favartists} info={exec.info}></ExecCard>
       )) }
     </div>
 
@@ -48,7 +48,7 @@ export default function MeetTheExecs() {
       }}
     >
       {eventsexecs.map((exec) => (
-      <ExecCard name={exec.name} pic={exec.pic} role={exec.role} year={exec.year} program={exec.program} favartists={exec.favartists} info={exec.info}></ExecCard>
+      <ExecCard key={exec.name} name={exec.name} pic={exec.pic} role={exec.role} year={exec.year} program={exec.program} favartists={exec.favartists} info={exec.info}></ExecCard>
       )) }
     </div>
 

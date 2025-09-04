@@ -1,7 +1,9 @@
 import * as React from 'react';
 // import { Link } from 'react-router-dom';
-import ResponsiveAppBar from '@/components/navbar';
-import { Card, CardContent, CardMedia, Typography, CardActions, Button } from '@mui/material';
+// import ResponsiveAppBar from '@/components/navbar';
+// import { Card, CardContent, CardMedia, Typography, CardActions, Button } from '@mui/material';
+import { Card, CardMedia, Typography, CardActions, Button } from '@mui/material';
+
 import Link from 'next/link';
 
 export default function WorkshopCard({workshopPoster, link1, link2} : {
@@ -11,7 +13,7 @@ export default function WorkshopCard({workshopPoster, link1, link2} : {
 }) {
   return (
         <Card sx={{ width: '60vw', height: "80vh", margin: 2, borderRadius: 2}}>
-            <Typography className="subtitle1"> This Week's Workshop </Typography>
+            <Typography className="subtitle1"> This Week&apos;s Workshop </Typography>
 
             <CardMedia
             component="img"

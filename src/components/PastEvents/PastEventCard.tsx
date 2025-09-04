@@ -1,7 +1,8 @@
 import * as React from 'react';
-import { Link } from 'react-router-dom';
-import ResponsiveAppBar from '@/components/navbar';
-import { Card, CardContent, CardMedia, Typography, CardActions, Button } from '@mui/material';
+// import { Link } from 'react-router-dom';
+// import ResponsiveAppBar from '@/components/navbar';
+// import { Card, CardContent, CardMedia, Typography, CardActions, Button } from '@mui/material';
+import { Card, CardContent, CardMedia, Typography } from '@mui/material';
 
 export default function PastEventCard({name, info, pic}: {
     name: string,
