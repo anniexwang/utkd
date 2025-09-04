@@ -1,0 +1,56 @@
+[
+    {
+        "role": "President", 
+        "name": "Chloe",
+        "pic": "",
+        "year": "4",
+        "program": "Rotman",
+        "favartists": "",
+        "info": ""
+    },
+    {
+        "role": "Vice President",
+        "name": "Krystal",
+        "pic": "",
+        "year": "3",
+        "program": "",
+        "favartists": "",
+        "info": ""
+    },
+    {
+        "role": "Treasurer",
+        "name": "Annie",
+        "pic": "/images/execs/Annie.jpg",
+        "year": "4",
+        "program": "Computer Science Specialist",
+        "favartists": "WayV, BLACKPINK",
+        "info": ""
+    },
+    {
+        "role": "Dance Cover Coordinator",
+        "name": "Wendy",
+        "pic": "",
+        "year": "4",
+        "program": "Statistics and Political Science",
+        "favartists": "",
+        "info": ""
+    },
+    {
+        "role": "Dance Workshop Coordinator",
+        "name": "Cathy",
+        "pic": "3",
+        "year": "",
+        "program": "",
+        "favartists": "",
+        "info": ""
+    },
+    {
+        "role": "Dance Workshop Coordinator",
+        "name": "Isabelle",
+        "pic": "",
+        "year": "",
+        "program": "",
+        "favartists": "",
+        "info": ""
+    }
+]

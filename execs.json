@@ -1,0 +1,119 @@
+[
+    {
+        "role": "President", 
+        "name": "Chloe",
+        "pic": "",
+        "year": "",
+        "program": "",
+        "favartists": "",
+        "info": ""
+    },
+    {
+        "role": "Vice President",
+        "name": "Krystal",
+        "pic": "",
+        "year": "",
+        "program": "",
+        "favartists": "",
+        "info": ""
+    },
+    {
+        "role": "Treasurer",
+        "name": "Annie",
+        "pic": "/images/Annie.jpg",
+        "year": "4",
+        "program": "Computer Science Specialist",
+        "favartists": "WayV, BLACKPINK",
+        "info": ""
+    },
+    {
+        "role": "Dance Cover Coordinator",
+        "name": "Wendy",
+        "pic": "",
+        "year": "",
+        "program": "",
+        "favartists": "",
+        "info": ""
+    },
+    {
+        "role": "Dance Workshop Coordinator",
+        "name": "Cathy",
+        "pic": "",
+        "year": "",
+        "program": "",
+        "favartists": "",
+        "info": ""
+    },
+    {
+        "role": "Dance Workshop Coordinator",
+        "name": "Isabelle",
+        "pic": "",
+        "year": "",
+        "program": "",
+        "favartists": "",
+        "info": ""
+    },
+    {
+        "role": "Events Director",
+        "name": "Yoanna",
+        "pic": "",
+        "year": "",
+        "program": "",
+        "favartists": "",
+        "info": ""
+    },
+    {
+        "role": "Events Associate",
+        "name": "Zipeng",
+        "pic": "",
+        "year": "",
+        "program": "",
+        "favartists": "",
+        "info": ""
+    },
+    {
+        "role": "Events Associate",
+        "name": "Evelyn",
+        "pic": "",
+        "year": "",
+        "program": "",
+        "favartists": "",
+        "info": ""
+    },
+    {
+        "role": "Events Associate",
+        "name": "Isaac",
+        "pic": "",
+        "year": "",
+        "program": "",
+        "favartists": "",
+        "info": ""
+    },
+    {
+        "role": "Social Media Director",
+        "name": "Tom",
+        "pic": "",
+        "year": "",
+        "program": "",
+        "favartists": "",
+        "info": ""
+    },
+    {
+        "role": "Social Media Associate",
+        "name": "Ren",
+        "pic": "",
+        "year": "",
+        "program": "",
+        "favartists": "",
+        "info": ""
+    },
+    {
+        "role": "Social Media Associate",
+        "name": "Alicia",
+        "pic": "",
+        "year": "",
+        "program": "",
+        "favartists": "",
+        "info": ""
+    }
+]
