@@ -4,7 +4,7 @@ import { Typography, Stack } from '@mui/material';
 import ResponsiveAppBar from '@/components/navbar';
 import EventsCard from '@/components/EventsWorkshops/EventsCard';
 import WorkshopCard from '@/components/EventsWorkshops/WorkshopCard';
-import '../../../App.css';
+import '../../App.css';
 
 export default function EventsWorkshops() {
   return (
