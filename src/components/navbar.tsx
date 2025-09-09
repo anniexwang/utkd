@@ -17,13 +17,14 @@ import Link from 'next/link';
 
 const pages = [
     {label: 'Home', path: '/home'}, 
-    {label: 'About Us', path: '/about-us'}, 
+    // {label: 'About Us', path: '/about-us'}, 
     {label: 'Meet the Execs', path: '/meet-the-execs-2526'}, 
-    {label: 'Events/Workshops', path: '/events-workshops'}, 
-    {label: 'Past Events', path: '/past-events'}, 
-    {label: 'Join Us', path: '/join-us'}, {
-    label: 'FAQ', path: '/faq'}, 
-    {label: 'Contact Us',  path: '/contact-us'}];
+    // {label: 'Events/Workshops', path: '/events-workshops'}, 
+    // {label: 'Past Events', path: '/past-events'}, 
+    // {label: 'Join Us', path: '/join-us'}, {
+    // label: 'FAQ', path: '/faq'}, 
+    // {label: 'Contact Us',  path: '/contact-us'}
+  ];
 // const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 function ResponsiveAppBar() {
@@ -46,7 +47,7 @@ function ResponsiveAppBar() {
   // };
 
   return (
-    <AppBar position="static" sx={{backgroundColor: "transparent", flexGrow: 1}}>
+    <AppBar position="static" sx={{backgroundColor: "transparent"}}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           {/* <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 , color: 'gray'}} /> */}
