@@ -2,28 +2,28 @@
     {
         "role": "Social Media Director",
         "name": "Tom",
-        "pic": "2",
-        "year": "",
-        "program": "",
-        "favartists": "",
+        "pic": "/images/execs/Tom.jpg",
+        "year": "2",
+        "program": "RC",
+        "favartists": "ADP, LOONA, AESPA",
         "info": ""
     },
     {
         "role": "Social Media Associate",
         "name": "Ren",
-        "pic": "",
+        "pic": "/images/execs/Ren.jpg",
         "year": "3",
-        "program": "",
-        "favartists": "",
+        "program": "PSY",
+        "favartists": "NMIXX, ITZY, JIHYO",
         "info": ""
     },
     {
         "role": "Social Media Associate",
         "name": "Alicia",
-        "pic": "",
-        "year": "",
-        "program": "",
-        "favartists": "",
+        "pic": "/images/execs/Alicia.png",
+        "year": "3",
+        "program": "MGY",
+        "favartists": "TWICE, AESPA, ATEEZ",
         "info": ""
     }
 ]

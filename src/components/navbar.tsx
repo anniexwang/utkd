@@ -46,11 +46,16 @@ function ResponsiveAppBar() {
   // };
 
   return (
-    <AppBar position="static" sx={{backgroundColor: "transparent"}}>
+    <AppBar position="static" sx={{backgroundColor: "transparent", flexGrow: 1}}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-          <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 , color: 'gray'}} />
-          <Typography
+          {/* <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 , color: 'gray'}} /> */}
+          <Box
+            component="img"
+            src='/UTKDC_logo.svg'
+            sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 , color: 'gray', width: 60, height: 60}}
+          />
+          {/* <Typography
             variant="h6"
             noWrap
             component="a"
@@ -66,7 +71,8 @@ function ResponsiveAppBar() {
             }}
           >
             LOGO
-          </Typography> {/* full screen logo title */}
+          </Typography>  */}
+          {/* full screen logo title */}
 
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' }, color: 'gray'}}> {/* minimized screen drop down */}
             <IconButton
@@ -104,8 +110,13 @@ function ResponsiveAppBar() {
               ))}
             </Menu>
           </Box>
-          <AdbIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1, color: 'gray' }} /> {/* logo */}
-          <Typography
+          {/* <AdbIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1, color: 'gray' }} /> logo */}
+          {/* <Box
+            component="img"
+            src='/UTKDC_logo.svg'
+            sx={{ display: { xs: 'flex', md: 'none' }, mr: 1, color: 'gray', width: 60, height: 60, justifyContent: 'center', alignItems: 'center'}}
+          /> */}
+          {/* <Typography
             variant="h5"
             noWrap
             component="a"
@@ -122,7 +133,8 @@ function ResponsiveAppBar() {
             }}
           >
             LOGO
-          </Typography> {/* minimized screen logo title */}
+          </Typography>  */}
+          {/* minimized screen logo title */}
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' }, color: 'gray' }}> {/* page titles */}
             {pages.map((page) => (
                 <Link key={page.label} href={page.path} passHref>

@@ -2,10 +2,10 @@
     {
         "role": "Events Director",
         "name": "Yoanna",
-        "pic": "",
-        "year": "",
-        "program": "",
-        "favartists": "",
+        "pic": "/images/execs/Yoanna.jpg",
+        "year": "4",
+        "program": "PCL/PSL",
+        "favartists": "SVT, IDLE, LE SSERAFIM",
         "info": ""
     },
     {
@@ -13,26 +13,26 @@
         "name": "Zipeng",
         "pic": "/images/execs/Zipeng.JPG",
         "year": "3",
-        "program": "Kinesiology",
-        "favartists": "BLACKPINK, SEVENTEEN, ITZY",
+        "program": "KIN",
+        "favartists": "BLACKPINK, SVT, ITZY",
         "info": ""
     },
     {
         "role": "Events Associate",
         "name": "Evelyn",
-        "pic": "",
-        "year": "",
-        "program": "",
-        "favartists": "",
+        "pic": "/images/execs/Evelyn.jpg",
+        "year": "3",
+        "program": "RC",
+        "favartists": "AESPA, BABYMONSTER",
         "info": ""
     },
     {
         "role": "Events Associate",
         "name": "Isaac",
-        "pic": "",
-        "year": "",
-        "program": "",
-        "favartists": "",
+        "pic": "/images/execs/Isaac.webp",
+        "year": "2",
+        "program": "ACT/MAT",
+        "favartists": "BTS, LE SSERAFIM, AESPA",
         "info": ""
     }
 ]

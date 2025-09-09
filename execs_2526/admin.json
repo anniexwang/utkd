@@ -2,19 +2,19 @@
     {
         "role": "President", 
         "name": "Chloe",
-        "pic": "",
+        "pic": "/images/execs/Chloe.jpg",
         "year": "4",
         "program": "Rotman",
-        "favartists": "",
+        "favartists": "GOT7, ATEEZ, SKZ, SVT",
         "info": ""
     },
     {
         "role": "Vice President",
         "name": "Krystal",
-        "pic": "",
+        "pic": "/images/execs/Krystal.jpg",
         "year": "3",
-        "program": "",
-        "favartists": "",
+        "program": "MGY/PCL",
+        "favartists": "P1H, ONF, 8TURN",
         "info": ""
     },
     {
@@ -22,35 +22,35 @@
         "name": "Annie",
         "pic": "/images/execs/Annie.jpg",
         "year": "4",
-        "program": "Computer Science Specialist",
-        "favartists": "WayV, BLACKPINK",
+        "program": "CS/STA",
+        "favartists": "WayV, BLACKPINK, ITZY",
         "info": ""
     },
     {
         "role": "Dance Cover Coordinator",
         "name": "Wendy",
-        "pic": "",
+        "pic": "/images/execs/Wendy.jpg",
         "year": "4",
-        "program": "Statistics and Political Science",
-        "favartists": "",
+        "program": "STA/POL",
+        "favartists": "TWICE, LE SSERAFIM, AESPA",
         "info": ""
     },
     {
         "role": "Dance Workshop Coordinator",
         "name": "Cathy",
-        "pic": "3",
-        "year": "",
-        "program": "",
-        "favartists": "",
+        "pic": "/images/execs/Cathy.jpg",
+        "year": "3",
+        "program": "GLOBAL HEALTH",
+        "favartists": "IZ*ONE, X1, SVT",
         "info": ""
     },
     {
         "role": "Dance Workshop Coordinator",
         "name": "Isabelle",
-        "pic": "",
-        "year": "",
-        "program": "",
-        "favartists": "",
+        "pic": "/images/execs/Isabelle.jpg",
+        "year": "2",
+        "program": "RC",
+        "favartists": "NCT DREAM",
         "info": ""
     }
 ]
