@@ -136,7 +136,7 @@ function ResponsiveAppBar() {
             LOGO
           </Typography>  */}
           {/* minimized screen logo title */}
-          <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' }, color: 'gray' }}> {/* page titles */}
+          <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' }, color: 'gray', justifyContent: 'center', alignItems: 'center' }}> {/* page titles */}
             {pages.map((page) => (
                 <Link key={page.label} href={page.path} passHref>
                     <Button

@@ -17,7 +17,7 @@ export default function ExecCard({name, pic, role, year, program, favartists, in
     <Card sx={{ width: 300, margin: 2, boxShadow: 15, borderRadius: 2}}>
       
       <CardContent>
-        <Typography variant="h6" component="div">
+        <Typography variant="h6" component="div" >
             {role}
         </Typography>
         <CardMedia

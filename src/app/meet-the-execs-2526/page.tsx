@@ -7,7 +7,7 @@ import adminexecs from '../../../execs_2526/admin.json';
 import eventsexecs from '../../../execs_2526/events.json';
 import socialmediaexecs from '../../../execs_2526/socialmedia.json';
 import Link from 'next/link';
-import '../../../App.css';
+import '../../App.css';
 
 export default function MeetTheExecs() {
   return (
