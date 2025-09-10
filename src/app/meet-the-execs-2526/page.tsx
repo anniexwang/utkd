@@ -1,12 +1,12 @@
 import * as React from 'react';
 // import { Link } from 'react-router-dom';
-import { Typography, Button } from '@mui/material';
+import { Typography } from '@mui/material';
 import ResponsiveAppBar from '@/components/navbar';
 import ExecCard from '@/components/MeetTheExecs/ExecCard';
 import adminexecs from '../../../execs_2526/admin.json';
 import eventsexecs from '../../../execs_2526/events.json';
 import socialmediaexecs from '../../../execs_2526/socialmedia.json';
-import Link from 'next/link';
+// import Link from 'next/link';
 // import '../../App.css';
 
 export default function MeetTheExecs() {

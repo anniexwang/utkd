@@ -1,22 +1,100 @@
 import * as React from 'react';
-import { Typography } from '@mui/material';
+import { Typography, Box } from '@mui/material';
 import ResponsiveAppBar from '@/components/navbar';
 
-import YouTubeIcon from '@mui/icons-material/YouTube';
-import InstagramIcon from '@mui/icons-material/Instagram';
-import MusicNoteIcon from '@mui/icons-material/MusicNote';
+// import YouTubeIcon from '@mui/icons-material/YouTube';
+// import InstagramIcon from '@mui/icons-material/Instagram';
+// import MusicNoteIcon from '@mui/icons-material/MusicNote';
+// import TrendingFlatIcon from '@mui/icons-material/TrendingFlat';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faDiscord } from "@fortawesome/free-brands-svg-icons";
+import { faYoutube } from "@fortawesome/free-brands-svg-icons";
+import { faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { faTiktok } from "@fortawesome/free-brands-svg-icons";
+
 
 export default function Home() {
   return (
     <>
       <ResponsiveAppBar/>
-      <div style={{
+      
+        {/* <Typography> Home </Typography> */}
+
+        <Box
+          sx={{
+            display: 'flex',
+            flexDirection: { xs: 'column', md: 'row' },
+            justifyContent: 'center',
+            alignItems: 'center',
+          }}
+        >
+          {/* Left Side (Text) */}
+          <Box sx={{ textAlign: 'center' }}>
+            <Typography
+              sx={{
+                fontSize: '2.25rem',
+                fontWeight: 700,
+                color: '#111827',
+                marginTop: '2rem',
+                marginBottom: '0.75rem',
+                position: 'relative',
+                paddingBottom: '0.5rem',
+                fontFamily: 'Verdana, Geneva, Tahoma, sans-serif',
+              }}
+            >
+              UofT Kpop Dance Club
+            </Typography>
+
+            <Typography
+              sx={{
+                fontSize: '1.2rem',
+                fontWeight: 500,
+                color: '#6b7280',
+                marginTop: '2.5rem',
+                marginBottom: '0.75rem',
+                maxWidth: '700px',
+                marginLeft: 'auto',
+                marginRight: 'auto',
+                letterSpacing: '0.5px',
+              }}
+            >
+              Sharing our love for Kpop and Dancing at UofT!
+            </Typography>
+          </Box>
+
+          {/* Right Side (Logo) */}
+          <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+            <Box
+              component="img"
+              src="/UTKDC_logo.svg"
+              sx={{
+                marginTop: { md: '2.5rem' },
+                width: { xs: '40vw', md: '50vw' },
+                height: 'auto',
+              }}
+            />
+          </Box>
+        </Box>
+
+
+
+
+        {/* <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '0.5rem' }}>
+          <Typography 
+            component='a'
+            href='https://www.youtube.com/@utkdc_official'
+            target='_blank'
+            rel='noopener noreferrer'
+            sx={{fontSize: '1.2rem', fontWeight: 500, color: '#6b7280', marginTop: '2.5rem', marginBottom: '2.5rem', maxWidth: '700px', letterSpacing: '0.5px', display: 'flex', justifyContent: 'center', alignItems: 'center' }}> Learn More </Typography>
+          <TrendingFlatIcon sx={{color: '#6b7280'}}/>
+        </div> */}
+
+        {/* <div style={{
         position: "relative", 
-        paddingBottom: "56.25%", // 16:9 ratio (9/16 = 0.5625)
-        height: 0, 
-        width: "100%",
-      }}>
-        <Typography> Home </Typography>
+        // paddingBottom: "56.25%", // 16:9 ratio (9/16 = 0.5625)
+        // height: "100%", 
+        // width: "100%",
+        }}>
         <iframe 
           src="https://www.youtube.com/embed/ggkrnZ_40-o?si=9KrPM_ram_ei5B0D" 
           title='Youtube'
@@ -24,88 +102,228 @@ export default function Home() {
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
           style={{ 
-            position: "absolute", 
+            // position: "absolute", 
             top: 0, 
             left: 0, 
-            width: "60%", 
-            height: "60%" 
+            position: "relative", 
+            width: "100%", 
+            height: "100%" 
           }}
         ></iframe>
-        </div>
+        </div> */}
 
-
-
-          
-        {/* <iframe 
-          src="https://www.instagram.com/utkdc_official/" 
-          width='600' 
-          height='400' 
-          title='Instagram'
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-          // style={{ marginTop: '20px' }}
-        ></iframe> */}
-
-        <div style={{ display: "flex", flexDirection: "row", gap: "2vw" }}>
-            <div style={{ position: "relative", paddingBottom: "56.25%", width: "100%", height: 0 }}>
-
-        <iframe 
-          src="https://www.youtube.com/embed/ggkrnZ_40-o?si=9KrPM_ram_ei5B0D" 
-          title='Youtube'
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-          style={{ 
-            position: "absolute", 
-            top: 0, 
-            left: 0, 
-            width: "60%", 
-            height: "60%" 
-          }}
-
-        ></iframe>
-        </div>
-        <iframe 
-          src="https://www.youtube.com/embed/ggkrnZ_40-o?si=9KrPM_ram_ei5B0D" 
-          title='Youtube'
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-          style={{ marginTop: '5vw',
-            width: '18vw',
-            height: '13vh'
-          }}
-        ></iframe>
-        <iframe 
-          src="https://www.youtube.com/embed/ggkrnZ_40-o?si=9KrPM_ram_ei5B0D" 
-          title='Youtube'
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-          style={{ marginTop: '5vw',
-            width: '18vw',
-            height: '13vh'
-          }}
-        ></iframe>
         
 
-        <div style={{ display: "flex", flexDirection: "row", gap: "5vw", marginTop: '2vw' }}>
-          <div style={{ display: "flex", flexDirection: "row"}}>
-            <YouTubeIcon />
-            <Typography> YouTube </Typography>
-          </div>
-          <div style={{ display: "flex", flexDirection: "row"}}>
-            <InstagramIcon />
-            <Typography> Instagram </Typography> 
-          </div>
-          <div style={{ display: "flex", flexDirection: "row"}}>
-            <MusicNoteIcon />
-            <Typography> Music </Typography>
-          </div>
-        </div>
+        <Box
+  sx={{
+    display: 'flex',
+    flexDirection: { xs: 'column', md: 'row' }, // stack on mobile, side by side on desktop
+    justifyContent: 'center',
+    alignItems: 'flex-start',
+    gap: '2rem',
+    marginTop: '3rem',
+  }}
+>
+  {/* Left: Video */}
+  <Box sx={{ flex: 1, width: '100%', maxWidth: '800px', margin: '0 auto', display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center' }}>
+    <Typography sx={{fontSize: '1.2rem', fontWeight: 500, color: '#6b7280', marginTop: '2.5rem', marginBottom: '2.5rem', maxWidth: '700px', marginLeft: 'auto', marginRight: 'auto', letterSpacing: '0.5px', textTransform: 'uppercase', display: 'flex', justifyContent: 'center', alignItems: 'center' }}> Latest Cover </Typography>
 
-          
+    <iframe
+      src="https://www.youtube.com/embed/ggkrnZ_40-o?si=9KrPM_ram_ei5B0D"
+      title="Youtube"
+      frameBorder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowFullScreen
+      style={{
+        width: '95%',
+        aspectRatio: '16 / 9',
+      }}
+    ></iframe>
+  </Box>
+
+  {/* Right: Text */}
+  <Box sx={{ flex: 1, margin: '0 auto' }}>
+
+    <Typography sx={{fontSize: '1.2rem', fontWeight: 500, color: '#6b7280', marginTop: '2.5rem', marginBottom: '2.5rem', maxWidth: '700px', marginLeft: 'auto', marginRight: 'auto', letterSpacing: '0.5px', textTransform: 'uppercase', display: 'flex', justifyContent: 'center', alignItems: 'center' }}> Recent Covers </Typography>
+
+    <Typography
+      sx={{
+        fontSize: '1.2rem',
+        fontWeight: 500,
+        color: '#6b7280',
+        marginTop: '1.5rem',
+        marginBottom: '0.75rem',
+        letterSpacing: '0.5px',
+        textTransform: 'uppercase',
+        textAlign: 'center',
+      }}
+    >
+      February
+    </Typography>
+    <Typography
+      component="a"
+      href="https://www.youtube.com/watch?v=p-f9ED0Q97A"
+      target="_blank"
+      rel="noopener noreferrer"
+      sx={{ display: 'block', textAlign: 'center' }}
+    >
+      MEOVV - MEOW
+    </Typography>
+
+    <Typography
+      sx={{
+        fontSize: '1.2rem',
+        fontWeight: 500,
+        color: '#6b7280',
+        marginTop: '1.5rem',
+        marginBottom: '0.75rem',
+        letterSpacing: '0.5px',
+        textTransform: 'uppercase',
+        textAlign: 'center',
+      }}
+    >
+      March
+    </Typography>
+    <Typography
+      component="a"
+      href="https://www.youtube.com/watch?v=LFAIjRyMD2Q"
+      target="_blank"
+      rel="noopener noreferrer"
+      sx={{ display: 'block', textAlign: 'center' }}
+    >
+      LE SSERAFIM - Perfect Night
+    </Typography>
+
+    <Typography
+      sx={{
+        fontSize: '1.2rem',
+        fontWeight: 500,
+        color: '#6b7280',
+        marginTop: '1.5rem',
+        marginBottom: '0.75rem',
+        letterSpacing: '0.5px',
+        textTransform: 'uppercase',
+        textAlign: 'center',
+      }}
+    >
+      April
+    </Typography>
+    <Typography
+      component="a"
+      href="https://www.youtube.com/watch?v=rOSLuD3cRpE"
+      target="_blank"
+      rel="noopener noreferrer"
+      sx={{ display: 'block', textAlign: 'center' }}
+    >
+      BADVILLAN - BADVILLAN
+    </Typography>
+
+    <Typography
+      sx={{
+        fontSize: '1.2rem',
+        fontWeight: 500,
+        color: '#6b7280',
+        marginTop: '1.5rem',
+        marginBottom: '0.75rem',
+        letterSpacing: '0.5px',
+        textTransform: 'uppercase',
+        textAlign: 'center',
+      }}
+    >
+      June
+    </Typography>
+    <Typography
+      component="a"
+      href="https://www.youtube.com/watch?v=SQuoRzVN5F0"
+      target="_blank"
+      rel="noopener noreferrer"
+      sx={{ display: 'block', textAlign: 'center' }}
+    >
+      TREASURE - JIKJIN
+    </Typography>
+
+    <Typography
+      sx={{
+        fontSize: '1.2rem',
+        fontWeight: 500,
+        color: '#6b7280',
+        marginTop: '1.5rem',
+        marginBottom: '0.75rem',
+        letterSpacing: '0.5px',
+        textTransform: 'uppercase',
+        textAlign: 'center',
+      }}
+    >
+      July
+    </Typography>
+    <Typography
+      component="a"
+      href="https://www.youtube.com/watch?v=ggkrnZ_40-o"
+      target="_blank"
+      rel="noopener noreferrer"
+      sx={{ display: 'block', textAlign: 'center' }}
+    >
+      Tomorrow X Together - Chasing That Feeling
+    </Typography>
+  </Box>
+</Box>
+
+
+        <Typography sx={{fontSize: '1.2rem', fontWeight: 500, color: '#6b7280', marginTop: '5rem', marginBottom: '2.5rem', maxWidth: '700px', marginLeft: 'auto', marginRight: 'auto', letterSpacing: '0.5px', textTransform: 'uppercase', display: 'flex', justifyContent: 'center', alignItems: 'center' }}> Follow Us On Social Media! </Typography>
+
+        <div style={{ display: "flex", flexDirection: "row", gap: "5vw", marginTop: '5rem', marginBottom: '5rem', justifyContent: 'center', alignItems: 'center' }}>
+
+          <div style={{ display: "flex", flexDirection: "row", justifyContent: 'center', alignItems: 'center', gap: '8px'}}>
+            {/* <YouTubeIcon /> */}
+            <FontAwesomeIcon icon={faYoutube} size="2x" style={{ color: "#FF0000"}}/>
+            <Typography
+              component='a'
+              href='https://www.youtube.com/@utkdc_official'
+              target='_blank'
+              rel='noopener noreferrer'
+            > 
+              YouTube 
+            </Typography>
+            
+          </div>
+          <div style={{ display: "flex", flexDirection: "row", justifyContent: 'center', alignItems: 'center', gap: '8px'}}>
+            {/* <InstagramIcon /> */}
+            <FontAwesomeIcon icon={faInstagram} size="2x" />
+            <Typography
+              component='a'
+              href='https://www.instagram.com/utkdc_official/'
+              target='_blank'
+              rel='noopener noreferrer'
+            > 
+              Instagram 
+            </Typography> 
+          </div>
+          <div style={{ display: "flex", flexDirection: "row", justifyContent: 'center', alignItems: 'center', gap: '8px'}}>
+            {/* <MusicNoteIcon /> */}
+            <FontAwesomeIcon icon={faTiktok} size="2x" style={{ color: "#010101" }} />
+            <Typography
+              component='a'
+              href='https://www.tiktok.com/@utkdc_official'
+              target='_blank'
+              rel='noopener noreferrer'
+            > 
+              Tiktok 
+            </Typography>
+          </div>
+          <div style={{ display: "flex", flexDirection: "row", justifyContent: 'center', alignItems: 'center', gap: '8px'}}>
+            {/* <MusicNoteIcon /> */}
+            <FontAwesomeIcon icon={faDiscord} size="2x" style={{ color: "#5865F2" }} />
+              <Typography
+              component='a'
+              href='https://discord.gg/PgPp5uFcKj'
+              target='_blank'
+              rel='noopener noreferrer'
+            > 
+              Discord 
+            </Typography>
+          </div>
         </div>
     </>
   );
