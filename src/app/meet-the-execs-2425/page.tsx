@@ -28,7 +28,7 @@ export default function MeetTheExecs() {
       }}
     >
       {adminexecs.map((exec) => (
-      <ExecCard key={exec.name} name={exec.name} pic={exec.pic} role={exec.role} year={exec.year} program={exec.program} favartists={exec.favartists} info={exec.info}></ExecCard>
+      <ExecCard key={exec.name} name={exec.name} pic={exec.pic} role={exec.role} year={exec.year} program={exec.program} favartists={exec.favartists} info={exec.info} boxShadowColour=''></ExecCard>
       )) }
     </div>
 
@@ -47,7 +47,7 @@ export default function MeetTheExecs() {
       }}
     >
       {eventsexecs.map((exec) => (
-      <ExecCard key={exec.name} name={exec.name} pic={exec.pic} role={exec.role} year={exec.year} program={exec.program} favartists={exec.favartists} info={exec.info}></ExecCard>
+      <ExecCard key={exec.name} name={exec.name} pic={exec.pic} role={exec.role} year={exec.year} program={exec.program} favartists={exec.favartists} info={exec.info} boxShadowColour=''></ExecCard>
       )) }
     </div>
 
@@ -67,7 +67,7 @@ export default function MeetTheExecs() {
     >
       {socialmediaexecs.map((exec) => (
         <div key={exec.name} style={{ margin: 0 }}>
-          <ExecCard  name={exec.name} pic={exec.pic} role={exec.role} year={exec.year} program={exec.program} favartists={exec.favartists} info={exec.info}></ExecCard>
+          <ExecCard  name={exec.name} pic={exec.pic} role={exec.role} year={exec.year} program={exec.program} favartists={exec.favartists} info={exec.info} boxShadowColour=''></ExecCard>
         </div>
       )) }
     </div>
