@@ -2,7 +2,7 @@ import * as React from 'react';
 // import { Link } from 'react-router-dom';
 import { Typography } from '@mui/material';
 import ResponsiveAppBar from '@/components/navbar';
-import '../../App.css';
+// import '../../App.css';
 
 export default function JoinUs() {
   return (
