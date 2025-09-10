@@ -4,6 +4,8 @@ import * as React from 'react';
 // import { Card, CardContent, CardMedia, Typography, CardActions, Button } from '@mui/material';
 import { Card, CardContent, CardMedia, Typography } from '@mui/material';
 import { CSSProperties } from "react";
+type BoxShadow = CSSProperties["boxShadow"];
+
 
 export default function ExecCard({name, pic, role, year, program, favartists, info, boxShadowColour} : {
     name: string,
@@ -13,7 +15,7 @@ export default function ExecCard({name, pic, role, year, program, favartists, in
     program: string,
     favartists: string,
     info?: string,
-    boxShadowColour: CSSProperties["boxShadow"],
+    boxShadowColour: BoxShadow,
 }) {
   return (
     <Card sx={{ width: 300, 
