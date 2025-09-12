@@ -12,8 +12,30 @@ import { faYoutube } from "@fortawesome/free-brands-svg-icons";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { faTiktok } from "@fortawesome/free-brands-svg-icons";
 
+import { League_Spartan, Bebas_Neue, Saira_Condensed } from 'next/font/google';
+
+const league = League_Spartan({
+  variable: "--font-league",
+  subsets: ["latin"],
+  weight: ["400", "700"],
+});
+
+const bebasNeue = Bebas_Neue({
+  variable: "--font-bebads",
+  subsets: ["latin"],
+  weight: "400",
+});
+
+const sairaCondensed = Saira_Condensed({
+  variable: "--font-saira-condensed",
+  subsets: ["latin"],
+  weight: ["400", "600", "700"],
+});
+
+
 
 export default function Home() {
+
   return (
     <>
       <ResponsiveAppBar/>
@@ -31,6 +53,10 @@ export default function Home() {
           {/* Left Side (Text) */}
           <Box sx={{ textAlign: 'center' }}>
             <Typography
+              className={league.className}
+              // classNames={bebasNeue.className}
+              // className={sairaCondensed.className}
+
               sx={{
                 fontSize: '2.25rem',
                 fontWeight: 700,
@@ -39,7 +65,9 @@ export default function Home() {
                 marginBottom: '0.75rem',
                 position: 'relative',
                 paddingBottom: '0.5rem',
-                fontFamily: 'Verdana, Geneva, Tahoma, sans-serif',
+                textShadow: '2px 2px 4px rgba(255, 110, 196, 0.35)'
+                // fontFamily: 'Bebas Neue, sans-serif'
+                // fontFamily: '"League Spartan", sans-serif'
               }}
             >
               UofT Kpop Dance Club
@@ -56,6 +84,8 @@ export default function Home() {
                 marginLeft: 'auto',
                 marginRight: 'auto',
                 letterSpacing: '0.5px',
+                textShadow: '2px 2px 4px rgba(120, 245, 120, 0.35)'
+
               }}
             >
               Sharing our love for Kpop and Dancing at UofT!
@@ -128,7 +158,7 @@ export default function Home() {
   <Box sx={{ flex: 1, width: '100%', maxWidth: '800px', margin: '0 auto', display: 'flex',
     flexDirection: 'column',
     alignItems: 'center' }}>
-    <Typography sx={{fontSize: '1.2rem', fontWeight: 500, color: '#6b7280', marginTop: '2.5rem', marginBottom: '2.5rem', maxWidth: '700px', marginLeft: 'auto', marginRight: 'auto', letterSpacing: '0.5px', textTransform: 'uppercase', display: 'flex', justifyContent: 'center', alignItems: 'center' }}> Latest Cover </Typography>
+    <Typography sx={{fontSize: '1.2rem', fontWeight: 500, color: '#6b7280', marginTop: '2.5rem', marginBottom: '2.5rem', maxWidth: '700px', marginLeft: 'auto', marginRight: 'auto', letterSpacing: '0.5px', textTransform: 'uppercase', display: 'flex', justifyContent: 'center', alignItems: 'center', textShadow: '2px 2px 4px rgba(255, 110, 196, 0.35)' }}> Latest Cover </Typography>
 
     <iframe
       src="https://www.youtube.com/embed/ggkrnZ_40-o?si=9KrPM_ram_ei5B0D"
@@ -146,7 +176,7 @@ export default function Home() {
   {/* Right: Text */}
   <Box sx={{ flex: 1, margin: '0 auto' }}>
 
-    <Typography sx={{fontSize: '1.2rem', fontWeight: 500, color: '#6b7280', marginTop: '2.5rem', marginBottom: '2.5rem', maxWidth: '700px', marginLeft: 'auto', marginRight: 'auto', letterSpacing: '0.5px', textTransform: 'uppercase', display: 'flex', justifyContent: 'center', alignItems: 'center' }}> Recent Covers </Typography>
+    <Typography sx={{fontSize: '1.2rem', fontWeight: 500, color: '#6b7280', marginTop: '2.5rem', marginBottom: '2.5rem', maxWidth: '700px', marginLeft: 'auto', marginRight: 'auto', letterSpacing: '0.5px', textTransform: 'uppercase', display: 'flex', justifyContent: 'center', alignItems: 'center', textShadow: '2px 2px 4px rgba(120, 245, 120, 0.35)' }}> Recent Covers </Typography>
 
     <Typography
       sx={{
@@ -158,6 +188,7 @@ export default function Home() {
         letterSpacing: '0.5px',
         textTransform: 'uppercase',
         textAlign: 'center',
+        textShadow: '2px 2px 4px rgba(200, 120, 255, 0.3)',
       }}
     >
       February
@@ -182,6 +213,7 @@ export default function Home() {
         letterSpacing: '0.5px',
         textTransform: 'uppercase',
         textAlign: 'center',
+        textShadow: '2px 2px 4px rgba(200, 120, 255, 0.3)',
       }}
     >
       March
@@ -206,6 +238,7 @@ export default function Home() {
         letterSpacing: '0.5px',
         textTransform: 'uppercase',
         textAlign: 'center',
+        textShadow: '2px 2px 4px rgba(200, 120, 255, 0.3)',
       }}
     >
       April
@@ -230,6 +263,7 @@ export default function Home() {
         letterSpacing: '0.5px',
         textTransform: 'uppercase',
         textAlign: 'center',
+        textShadow: '2px 2px 4px rgba(200, 120, 255, 0.3)',
       }}
     >
       June
@@ -254,6 +288,7 @@ export default function Home() {
         letterSpacing: '0.5px',
         textTransform: 'uppercase',
         textAlign: 'center',
+        textShadow: '2px 2px 4px rgba(200, 120, 255, 0.3)',
       }}
     >
       July
