@@ -23,7 +23,7 @@ const pages = [
     // {label: 'Past Events', path: '/past-events'}, 
     // {label: 'Join Us', path: '/join-us'}, {
     // label: 'FAQ', path: '/faq'}, 
-    // {label: 'Contact Us',  path: '/contact-us'}
+    {label: 'Contact Us',  path: '/contact-us'}
   ];
 // const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
