@@ -94,7 +94,7 @@ export default function Home() {
               src="/UTKDC_logo.svg"
               sx={{
                 marginTop: { md: '2.5rem' },
-                width: { xs: '40vw', md: '50vw' },
+                width: { xs: '50vw', md: '50vw' },
                 height: 'auto',
               }}
             />
@@ -154,7 +154,7 @@ export default function Home() {
   <Box sx={{ flex: 1, width: '100%', maxWidth: '800px', margin: '0 auto', display: 'flex',
     flexDirection: 'column',
     alignItems: 'center' }}>
-    <Typography sx={{fontSize: '1.2rem', fontWeight: 500, color: '#6b7280', marginTop: '2.5rem', marginBottom: '2.5rem', maxWidth: '700px', marginLeft: 'auto', marginRight: 'auto', letterSpacing: '0.5px', textTransform: 'uppercase', display: 'flex', justifyContent: 'center', alignItems: 'center', textShadow: '2px 2px 4px rgba(255, 110, 196, 0.35)' }}> Latest Cover </Typography>
+    <Typography sx={{fontSize: '1.2rem', fontWeight: 500, color: '#6b7280', marginTop: { xs: '0rem', md: '2.5rem' }, marginBottom: '2.5rem', maxWidth: '700px', marginLeft: 'auto', marginRight: 'auto', letterSpacing: '0.5px', textTransform: 'uppercase', display: 'flex', justifyContent: 'center', alignItems: 'center', textShadow: '2px 2px 4px rgba(255, 110, 196, 0.35)' }}> Latest Cover </Typography>
 
     <iframe
       src="https://www.youtube.com/embed/ggkrnZ_40-o?si=9KrPM_ram_ei5B0D"

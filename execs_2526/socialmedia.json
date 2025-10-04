@@ -11,7 +11,7 @@
     {
         "role": "Social Media Associate",
         "name": "Ren",
-        "pic": "/images/execs/Ren.jpg",
+        "pic": "/images/execs/RenWang.jpg",
         "year": "3",
         "program": "PSY",
         "favartists": "NMIXX, ITZY, JIHYO",
@@ -24,6 +24,24 @@
         "year": "3",
         "program": "MGY",
         "favartists": "TWICE, AESPA, ATEEZ",
+        "info": ""
+    },
+    {
+        "role": "Social Media Associate",
+        "name": "Benji",
+        "pic": "/images/execs/Benji.png",
+        "year": "2",
+        "program": "GLOBAL HEALTH",
+        "favartists": "ATHEART, BIBI, NCT",
+        "info": ""
+    },
+    {
+        "role": "Social Media Associate",
+        "name": "Ren",
+        "pic": "/images/execs/Ren.png",
+        "year": "1",
+        "program": "HUMANITIES",
+        "favartists": "ATEEZ, BTS, SVT",
         "info": ""
     }
 ]
